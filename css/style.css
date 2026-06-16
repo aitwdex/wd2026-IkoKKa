@@ -6,17 +6,4 @@ body {
 .weather-card {
     width: 100%;
     max-width: 500px;
-    min-height: 25rem;
-}
-
-@media (max-width: 576px) {
-    .weather-card {
-        min-height: auto;
-    }
-
-    #time,
-    #temp1,
-    #temp2 {
-        font-size: 1.2rem;
-    }
 }
